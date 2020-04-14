@@ -140,8 +140,9 @@ while True:
 ```
 -----------------
 -----------------
-Python 3 
-Nagendra Babu
+```python
+'''Solution by: Nagendra Babu'''[***Nagendra Babu***](https://github.com/nagendra226)
+
 li = []
 for _ in range(int(input())):
     
@@ -149,6 +150,7 @@ for _ in range(int(input())):
 print(li)
 
 sum(list(map(lambda x:int(x[1]) if x[0] == 'D' else -int(x[1]),li)))
+```
 -----------------
 
 
