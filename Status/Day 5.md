@@ -139,6 +139,18 @@ while True:
         quit()
 ```
 -----------------
+-----------------
+Python 3 
+Nagendra Babu
+li = []
+for _ in range(int(input())):
+    
+    li.append(tuple(input().split(" ")))
+print(li)
+
+sum(list(map(lambda x:int(x[1]) if x[0] == 'D' else -int(x[1]),li)))
+-----------------
+
 
 [***go to previous day***](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
