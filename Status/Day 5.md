@@ -31,6 +31,12 @@
 lst = [str(int(i)**2) for i in input().split(',') if int(i) % 2]
 print(",".join(lst))
 ```
+----------------
+[***Nagendra Babu***](https://github.com/nagendra226)
+```python
+list(map(lambda x:x**2,list(filter(lambda x:x%2!=0,range(1,10)))))
+```
+----------------
 
 ***There were a mistake in the the test case and the solution's whice were notified and fixed with the help of @dwedigital. My warm thanks to him.*** 
 
@@ -140,8 +146,9 @@ while True:
 ```
 -----------------
 -----------------
+[***Nagendra Babu***](https://github.com/nagendra226)
 ```python
-'''Solution by: Nagendra Babu'''[***Nagendra Babu***](https://github.com/nagendra226)
+'''Solution by: Nagendra Babu'''
 
 li = []
 for _ in range(int(input())):
