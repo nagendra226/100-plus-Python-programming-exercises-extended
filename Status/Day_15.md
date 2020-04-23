@@ -99,6 +99,12 @@ email = input().split()
 ans = [word for word in email if word.isdigit()]  # using list comprehension method
 print(ans)
 ```
+----------------
+**My Solution: Python 3 nagendra226**
+**OR**
+```python
+list(filter(lambda x:x.isdigit(),"2 cats and 3 dogs."))
+```
 ---------------------
 
 
